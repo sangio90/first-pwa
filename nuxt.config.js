@@ -53,7 +53,7 @@ export default {
   pwa: {
     icon: {
       source: '~/static/',
-      fileName: 'icon.png'
+      fileName: 'app-icon.png'
     },
     manifest: {
       lang: 'en',
