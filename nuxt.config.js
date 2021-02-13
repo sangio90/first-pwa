@@ -53,7 +53,9 @@ export default {
   pwa: {
     manifest: {
       lang: 'en',
-      name: 'La mia prima PWA',
+      name: 'La mia prima PWA'
+    },
+    meta: {
       background_color: '#ffcc77',
       theme_color: '#ffcc77'
     }
