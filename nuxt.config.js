@@ -52,7 +52,8 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     icon: {
-      source: 'icon.png'
+      source: '~/static/',
+      fileName: 'icon.png'
     },
     manifest: {
       lang: 'en',
@@ -60,8 +61,8 @@ export default {
       start_url: '/'
     },
     meta: {
-      background_color: '#ffcc77',
-      theme_color: '#ffcc77'
+      background_color: '#272727',
+      theme_color: '#272727'
     }
   },
 
